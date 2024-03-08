@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./img/icon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aporte de cada país a las emisiones de CO2</title>
+    <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/themes/Responsive.js"></script>
+    <!-- <script src="https://cdn.amcharts.com/lib/5/locales/es_ES.js"></script> -->
+    <!-- <script src="https://cdn.amcharts.com/lib/5/geodata/germanyLow.js"></script> -->
+    <script src="https://cdn.amcharts.com/lib/5/fonts/notosans-sc.js"></script>
+    <!-- <script src="https://cdn.amcharts.com/lib/5/plugins/exporting.js"></script> -->
+    <script src="https://cdn.amcharts.com/lib/5/hierarchy.js"></script>
+    <script src="
+    https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js
+    "></script>
+    <script src="./js/loader.js"></script>
+    <script src="./js/main.js"></script>
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@400;700&family=Chivo:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="chartdivWraper">
+      <div id="loader">
+        <svg
+          class="animate-spin h-9 w-9 text-[#ABBABA]"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+        >
+          <circle
+            class="opacity-25"
+            cx="12"
+            cy="12"
+            r="10"
+            stroke="currentColor"
+            stroke-width="4"
+          ></circle>
+          <path
+            class="opacity-75"
+            fill="currentColor"
+            d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+          ></path>
+        </svg>
+      </div>
+      <div id="chartdiv" class="chartdiv"></div>
+    </div>
+  </body>
+</html>
