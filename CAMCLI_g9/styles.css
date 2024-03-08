@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Chivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #EFEFEF;
+}
+#areaGraph{
+    width: 776px;
+    height: 380px;
+    margin: auto;
+}
+/* TOOLTIP */
+.tooltip{
+    background-color: white;
+    border: 1px solid black;
+    text-align: left;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.tooltip .titu, .tooltip .data{
+    width: 100%;
+    font-family: "Chivo Mono";
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.2;
+    text-align: center;
+    margin: 5px auto;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+.tooltip .titu{
+    width: 102%;
+}
+.tooltip .data{
+    font-weight: 400;
+    border: none;
+    letter-spacing: -.5px;
+    margin: 5px auto 10px;
+}
+.tooltip .data .anio{
+    font-weight: 600;
+}
+.tooltip .data .punto{
+    font-size: 15px;
+    margin: auto;
+    margin-left: 2px;
+    margin-right: 5px;
+    /* color:#ff7b02; */
+}
+
+/* Esconde logo amCharts */
+.am5-layer-30{
+    top: -10000px !important;
+}
