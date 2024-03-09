@@ -1,13 +1,13 @@
 # graficos-CamCli
 
-__TREEMAP__ GRÁFICOS 1, 4, 6<br>
-__ÁREAS APILADAS__ GRÁFICOS 2, 5, 9, 10, 11, 12, 13<br>
-__MAPAS__ GRÁFICOS 3, 22, 23, 24<br>
-__BARRAS APILADAS__ GRÁFICO 7<br>
-__LINEAS__ GRÁFICOS 8, 16, 17, 18A, 18B, 19<br>
-__LINEAS Y RANGOS__ GRÁFICOS 20, 21<br>
-__COLUMNAS APILADAS__ GRÁFICO 14<br>
-__SCATTER__ GRÁFICO 15<br>
+__TREEMAP__: gráficos 1, 4, 6<br>
+__ÁREAS APILADAS__: gráficos 2, 5, 9, 10, 11, 12, 13<br>
+__MAPAS__: gráficos 3, 22, 23, 24<br>
+__BARRAS APILADAS__: gráfico 7<br>
+__LINEAS__: gráficos 8, 16, 17, 18A, 18B, 19<br>
+__LINEAS Y RANGOS__: gráficos 20, 21<br>
+__COLUMNAS APILADAS__: gráfico 14<br>
+__SCATTER__: gráfico 15<br>
 
 
 ### Grafico 1
